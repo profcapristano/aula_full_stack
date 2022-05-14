@@ -1,0 +1,41 @@
+Commandos Git
+
+adicionar ao commit
+git add <file>
+retirar do commit
+git reset <file>
+consolida alterações a serem enviadas
+git commit -m "id: meu primeiro commit"
+envia as alterações para a branch remota
+git push
+pega as informações da branch remota
+git pull
+---
+
+Comandos Linux usados na aula:
+
+Ir a uma pasta
+cd <path>
+
+Listar arquivos da pasta atual
+ls
+---
+
+Convenção de nomes:
+
+develop
+master ou main
+release-candidate
+release
+
+feature/id-descricao
+bug/id-descricao
+hotfix/id-descricao
+---
+
+Em um projeto
+
+git checkout develop
+git pull
+checa se a branch já existe, se não existe cria
+git checkout -b <branch-name>
