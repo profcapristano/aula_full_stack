@@ -42,7 +42,7 @@ Comandos de branch
 listar branch
 git branch --list
 
-entrar na branch
+entrar/utilizar na branch
 git checkout <branch-name>
 
 criar branch
@@ -54,11 +54,11 @@ git checkout -b <branch-name>
 para subir a branch para o repositório remoto
 git push --set-upstream origin develop
 
-utilizar a brach
-git checkout <branch-name>
-
-Excluir branch
+Excluir branch localmente
 git branch -D <branch-name>
+
+Excluir a branch remotamente
+git push origin --delete <branch-name>
 
 Baixar todas as branchs criadas no repositório remoto
 git remote update origin
