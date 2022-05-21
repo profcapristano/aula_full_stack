@@ -3,8 +3,7 @@ Commandos Git
 adicionar ao commit
 git add <file>
 retirar do commit
-git reset --hard HEAD
-git revert 8560b3c
+git reset <file>
 consolida alterações a serem enviadas
 git commit -m "id: meu primeiro commit"
 envia as alterações para a branch remota
