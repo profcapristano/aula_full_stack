@@ -37,6 +37,30 @@ bug/id-descricao
 hotfix/id-descricao
 ---
 
+Comandos de branch
+
+listar branch
+git branch --list
+
+criar branch
+git branch <branch-name>
+
+criar branch e utiliza-la
+git checkout -b <branch-name>
+
+utilizar a brach
+git checkout <branch-name>
+
+Excluir branch
+git branch -D <branch-name>
+
+Baixar todas as branchs criadas no repositório remoto
+git remote update origin
+
+Baixar todas as branchs e excluir conforme o que há no repositório
+git remote update origin
+---
+
 Em um projeto
 
 git checkout develop
