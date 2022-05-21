@@ -45,6 +45,9 @@ git branch --list
 criar branch
 git branch <branch-name>
 
+para subir a branch para o repositório remoto
+git push --set-upstream origin develop
+
 criar branch e utiliza-la
 git checkout -b <branch-name>
 
