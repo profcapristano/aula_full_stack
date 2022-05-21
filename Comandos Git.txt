@@ -63,8 +63,8 @@ git push origin --delete <branch-name>
 Baixar todas as branchs criadas no repositório remoto
 git remote update origin
 
-Baixar todas as branchs e excluir conforme o que há no repositório
-git remote update origin
+Baixar todas as branchs e excluir as referencias, conforme o que há no repositório
+git remote update origin --prune
 
 Para baixar alterações de outra branch
 git pull origin develop
