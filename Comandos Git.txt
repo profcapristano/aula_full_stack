@@ -27,14 +27,14 @@ ls
 
 Convenção de nomes:
 
-develop
-master ou main
-release-candidate
-release
+develop: branch de de desenvolvimento, unifica o trabalho de todos os programadores
+master ou main: é onde fica nosso código fonte oficial, que é aplicado em produção
+release-candidate: é a versão em testes que vai para produção, ou seja que irá para a branch main
+release-*: são as várias versões do sistema
 
-feature/id-descricao
-bug/id-descricao
-hotfix/id-descricao
+feature/id-descricao: este formato de branch é para novas funcionalidades do sistema
+bug/id-descricao: este formato de branch é para correções de bugs que não impactam em produção ou não são criticos
+hotfix/id-descricao: esta branch é para correções de problemas em produção
 ---
 
 Comandos de branch
