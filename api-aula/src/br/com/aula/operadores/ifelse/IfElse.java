@@ -23,7 +23,7 @@ public class IfElse {
 			}
 		}
 		
-		//2 - jeito correto, porém com uma lógica ruim para se fazer um bloco ifelse
+		//2 - jeito correto e otimizado, com uma lógica mais organizada
 		if(idade > 50) {//se essa condição for verdadeira.. execute seu conteudo
 			System.out.println("Voce pode entrar! Seja feliz!");
 		} else if (idade >= 18) {//se nenhuma opção anterior for verdadeira e essa for verdadeira, execute o código dentro do bloco
