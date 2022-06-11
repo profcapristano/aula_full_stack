@@ -94,19 +94,18 @@ public class Variaveis {
 		
 		//há três formas de inicializar variaveis de tipo objeto
 		Boolean oB = null;//passando nulo que é o valor padrão de objetos
-		Boolean ob2 = false;//inicializando ela com valor
 		Boolean ob3 = new Boolean(false);//criando uma instancia dela e atribuindo a variável
 		Boolean ob4 = new Boolean(null);
 		//e isso equivale a todas as variaveis
 		
 		//todas as variaveis terão a mesma variação
-		Character oC = '\u0000';//char
-		Byte oBy = 0;
-		Short oS = 0;
-		Integer oI = 0;//int
-		Long oL = 0L;
-		Float oF = 0F;
-		Double oD = 0.0;
+		Character oC = new Character('\u0000');//char
+		Byte oBy = new Byte((byte) 0);
+		Short oS = new Short((short)0);
+		Integer oI = new Integer(0);//int
+		Long oL = new Long(0L);
+		Float oF = new Float(0F);
+		Double oD = new Double(0.0);
 		
 		//pra matemática avançada há mais tipagens que não serão utilizadas no momento, somente a diante
 	}
