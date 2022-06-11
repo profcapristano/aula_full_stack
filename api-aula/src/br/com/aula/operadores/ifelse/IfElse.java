@@ -12,11 +12,12 @@ public class IfElse {
 		System.out.println("Digite sua idade:");
 		int idade = sc.nextInt();
 		
+		//se essa condição for verdadeira.. execute o bloco que a pertence
 		if(idade > 50) {
 			System.out.println("Voce pode entrar! Seja feliz!");
-		} else if (idade >= 18) {
+		} else if (idade >= 18) {//se nenhuma opção anterior for verdadeira e essa for verdadeira, execute o código dentro do bloco
 			System.out.println("Voce pode entrar! Mas não pode passar vergonha...");
-		} else {
+		} else {//se nenhuma opção foi verdadeira executa este bloco
 			System.out.println("Nao e permitido menores de idade!");
 		}
 		
