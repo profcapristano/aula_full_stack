@@ -6,7 +6,9 @@ public class Atividade2 {
 	
 	public static void main(String[] args) {
 		
-		//termine o codigo
+		//termine o codigo, para que seja efetuada as operacoes matematicas entre dois valores
+		//conforme o que for selecionado pelo usuário
+		//imprima o valor na tela
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Sistema de Calculo, digite a operacao:");
 		System.out.println("1 - Somar");
