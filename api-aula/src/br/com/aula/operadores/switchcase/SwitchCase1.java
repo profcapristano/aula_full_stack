@@ -22,6 +22,7 @@ public class SwitchCase1 {
 			break;
 
 		default:
+			//executa comando, ou faz algo
 			break;
 		}
 	}

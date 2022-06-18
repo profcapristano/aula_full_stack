@@ -10,7 +10,7 @@ public class Atividade3 {
 	//Diga se o aluno está aprovado, reprovado ou em recuperação
 	//Como funciona nossa metrica
 	//Aprovado média 7
-	//Recuperação média >= 6,25
+	//Recuperação média >= 6,25 e <= 6.99
 	//Reprovado < 6,25
 	
 	//Você deve usar concatenação, variáveis String, int e double

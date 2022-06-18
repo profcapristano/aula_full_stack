@@ -5,7 +5,7 @@ public class VariaveisArray {
 
 		// sao como as variaveis normais, porem com uma quantidade X de camadas
 		// a quantidade de camadas é definida pelo Dev de forma iterativa ou estatica
-		String[] arrayNome = new String[2];// o tamanho do array foi definido como 2
+		String[] arrayNome = new String[3];// o tamanho do array foi definido como 2
 		// uma vez que definimos o tamanho do array, sabemos que ele tera uma quantidade
 		// X de lugares para armazenar informações
 		// esses lugares de armazenamento são buscados com indices, sempre começando
@@ -19,6 +19,7 @@ public class VariaveisArray {
 
 		System.out.println(arrayNome[0]);
 		System.out.println(arrayNome[1]);
+		System.out.println(arrayNome[2]);
 
 	}
 

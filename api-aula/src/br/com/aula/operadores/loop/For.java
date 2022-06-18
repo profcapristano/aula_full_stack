@@ -10,10 +10,13 @@ public class For {
 		int qntParticipantes = sc.nextInt();
 		
 		String[] arrayNome = new String[qntParticipantes];
-		for(int i = 0; i < qntParticipantes; i++) {
+		
+		//int i = 0; todas as variaveis criadas fora do for estão disponiveis dentro do For, mas não o contrário
+		for(int i = 0; i < qntParticipantes; i++) {//i++ ... i = i +1
 			System.out.println("Escreva seu nome: ");
 			arrayNome[i] = sc.next();
 		}
+		//System.out.println(i);erro a variável, criada pelo For, existe apenas dentro do For
 		
 		for(int i = 0; i < qntParticipantes; i++) {
 			System.out.println("Seja Bem Vindo " + arrayNome[i]);
