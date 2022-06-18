@@ -8,7 +8,10 @@ public class Atividade1 {
 	//faça o sistema dizer "<nome_usuario> Seja Bem Vindo!"
 	
 	public static void main(String[] args) {
+		String nome = "";
 		//TODO
+		//Concatenando informações
+		System.out.println(nome + " Seja Bem Vindo!");
 	}
 
 }
