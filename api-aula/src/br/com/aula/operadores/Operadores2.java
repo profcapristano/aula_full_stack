@@ -49,6 +49,30 @@ public class Operadores2 {
 		System.out.println(!(1==1));//false
 		System.out.println(!true == false);//true
 		
+		//--
+		//porque utilizar a negação
+		//exemplo: tenho uma vaga de emprego que quer contratar apenas JAPONESES
+		//então o sistema pergunta a etnia da pessoa, caso a etnia da pessoa for diferente de "JAPONES" o sistema não aceitara o candidato
+		//no código vamos ilustrar assim
+		
+		//BRASILEIRO = 1
+		//CHINES = 2
+		//JAPONES = 3
+		int etnia = 1;
+		if(!(etnia == 3)) {
+			System.out.println("O candidato não possui os requisitos necessários");
+		} else {
+			System.out.println("Aprovado");
+		}
+		//seria o mesmo que fazer
+		if(etnia != 3) {
+			System.out.println("O candidato não possui os requisitos necessários");
+		} else {
+			System.out.println("Aprovado");
+		}
+		//a aplicação da negação, ou do teste de negação vai depender da situação
+		//--
+		
 		//testando se é igual
 		System.out.println(1 == 1);//true
 		//testando se é diferente
